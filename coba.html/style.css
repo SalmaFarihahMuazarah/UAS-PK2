@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url("gambar/gambar_statistic.jpg") no-repeat;
+    background-color: #a09d9d;
+    background-blend-mode: soft-light;
+    opacity: .8;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    background: #6C7271;
+    overflow-x: hidden;
+}
+
+header.wrapper-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header.wrapper-center h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+img {
+    border-bottom-right-radius: 48%;
+    border-bottom-left-radius: 48%;
+    border: 0px solid #6C7271;
+    position: inherit;
+    width: 15%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.tentang-saya {
+    background: #979494;
+    color:black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Knewave', cursive;
+}
+
+.tentang-saya h2{
+    font-size: 2.5rem; 
+    border-bottom: 3px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 25px;
+}
+
+.tentang-saya p {
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0 35px;
+}
+
+.skill {
+    background: #96A6A4;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill .wrapper {
+    width: 80%;
+}
+
+.skill .wrapper h2 {
+    font-family: 'Knewave', cursive;
+    font-size: 2.5rem; 
+    border-bottom: 3px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 25px;
+}
+
+.skill .wrapper-skill {
+    text-align: left;
+}
+
+.skill .wrapper-skill h5 {
+    font-size: 30px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+}
+
+.skill .wrapper-skill .background {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: white;
+}
+
+.skill .wrapper-skill .background .indicator {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 40px;
+    background: #868887;
+    z-index: 2;
+}
+
+.indicator.Bahasa.Arab {
+    width: 75%;
+}
+
+.indicator.Bahasa.Inggris {
+    width: 70%;
+}
+
+.indicator.Desain {
+    width: 80%;
+}
+
+.riwayat-pendidikan {
+    background: #979494;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-riwayat-pendidikan h2 {
+    font-family: 'Knewave', cursive;
+    font-size: 2.5rem; 
+    border-bottom: 3px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 25px;
+}
+
+.wrapper-riwayat-pendidikan p {
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0 35px;
+}
+
+.kontak {
+    background: #96A6A4;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak .wrapper-kontak h2 {
+    font-family: 'Knewave', cursive;
+    font-size: 2.5rem; 
+    border-bottom: 3px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 25px;
+}
+
+.wrapper-kontak .Wa{
+    background:white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 7px 9px 7px 9px;
+    color: #000000;
+    font-size: 2.0rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper-kontak .Wa:hover {
+    background:white;
+    text-decoration: #FFFFFF;
+}
+
+.wrapper-kontak .Email {
+    background:white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 12px 15px 12px 15px;
+    color: #000000;
+    font-size: 2.0rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper-kontak .Email:hover {
+    background:white;
+    text-decoration: #FFFFFF;
+}
